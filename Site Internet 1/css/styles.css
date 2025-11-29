@@ -1,0 +1,146 @@
+
+body{
+    margin: 0 auto;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* tete de page */
+header.hearder {
+    display: flex;
+    align-items: center;
+}
+
+header.header img {
+      width: 100px;
+}
+
+section.top-page {
+    background: url("../fleurs.jpg");
+    background-size: cover;
+    height: 80vh;
+    padding: 25px;
+}
+
+/* page de bienvenue (landing page) */
+
+.landing-page {
+    padding: 20px 50px;
+}
+
+.big-title {
+    color: white;
+    font-size: 80px;
+}
+
+/* menu de navigation */
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 30px;
+
+}
+
+nav.nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* services */
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.delivery-icon {
+    font-size: 50px;
+    color: black;
+}
+
+.service-details {
+    font-weight: 600;
+    text-align: center;
+}
+
+/* best sells */
+
+.section-title {
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    position: relative
+}
+
+.section-title::before {
+    content: "";
+    position: absolute;
+    background-color: brown;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+.bests-items {
+    margin: 100px;
+}
+
+.best-flowers {
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flower-box {
+    background: brown;
+    background-size: cover;
+    background-position: center;
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+}
+
+.flower1 {
+   background-image: url(../flwr.jpeg.avif);
+}
+
+.flower2 {
+    background-image: url(../flwr2.jpg.avif);
+}
+
+.flower3 {
+    background-image: url(../flrw3.jpg);
+}
+
+.flower-details {
+    position: absolute;
+    width: 40%;
+    bottom: 800;
+    background-color: beige;
+    padding: 5px 15px;
+    background: url(../flwr.jpeg.avif);
+    background-size: cover;
+    height: 80vh;
+    padding: 15px;
+}
+
+.flower-details {
+    background-image: url(../);
+}
+.flower-name {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 3px;
+
+}
+
+.flower-price {
+    color: brown;
+    font-weight: 800;
+}
